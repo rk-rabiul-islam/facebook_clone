@@ -1,0 +1,57 @@
+.verify_page_container{
+    margin-top: 60px;
+    .full_section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .sec_colum{
+            .card-body{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 35px;
+                .icon_span{
+                    color: green;
+                    font-size: 63px;
+                    text-align: center;
+                    border: 1px solid green;
+                    border-radius: 50%;
+                    width: 80px;
+                    height: 80px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                h1{
+                    font-size: 16px;
+                    margin-top: 10px;
+                }
+                .verify_page_conten{
+                    text-align: center;
+                    color: #808080;
+                    font-size: 14px;
+                }
+                .verify_form_sec{
+                    width: 100%;
+                    #verify_input{
+                        font-size: 14px;
+                        &:focus{
+                            box-shadow:none !important;
+                        }
+                    }
+                    
+                }
+            }
+
+            .card-footer{
+                a{
+                    text-align: center;
+                    display: block;
+                    color: #262626;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.register_container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(255, 255, 255, .8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 800px;
+    .register_warap{
+        width: 435px;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+        border-radius: 8px;
+
+        .signup_top_tex {
+            display: flex;
+            justify-content: space-between;  
+            padding: 10px 10px 0;          
+        }
+        .close_button {
+            button {
+            border: none;
+            background: none;
+            font-size: 35px;
+            color: #606771;
+            font-weight: 400;
+            margin-top: -10px;
+            }
+        }
+        .signup_form{
+            padding: 0 15px 15px;
+            input {
+                height: 44px;
+                border: 1px solid #ccd0d5;
+                border-radius: 6px;
+                padding: 11px;
+                background: #f5f6f7;
+                &:focus{
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+            .signup_name{
+                display: flex;
+                gap: 10px;
+            }
+            .age{
+                display: flex;
+                gap: 20px;
+                select {
+                    width: 100%;
+                    background: #fff;
+                    border: 1px solid #c1c1c1;
+                    height: 35px;
+                    padding: 4px;
+                    border-radius: 5px;
+                }
+            }
+            .gender{
+                gap: 20px;
+                display: flex;
+                label {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    border: 1px solid #c1c1c1;
+                    border-radius: 5px;
+                    height: 35px;
+                    padding: 5px;
+                    align-items: center;
+                }
+            }
+            .sign_up_btn{
+                background: #00a400;
+                width: 200px;
+                font-size: 18px;
+                height: 35px;
+                border-radius: 6px;
+                color: #fff;
+                border: none;
+            }
+        }
+    }
+}

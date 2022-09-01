@@ -1,0 +1,49 @@
+
+.auth_footer_container{
+    margin: 0;
+    background: #fff;
+    width: 100%;
+    font-weight: 500;
+    padding: 50px 0;
+    .auth_footer_menu{
+
+        ul{
+            text-align: center;
+            li{
+                display: inline-block;
+                margin: 0 10px;
+                font-weight: 300;
+                font-size: 12px;
+                
+                a{
+                    color: #8e8e8e;
+                }
+            }
+        }
+    }
+    .auth_copyRight_sec{
+        text-align: center;
+
+        .language_switch{
+            color: #8e8e8e ;
+            border: none;
+            background: none;
+            text-align: right;
+            font-size: 12px;
+            cursor: pointer;  
+            margin-right: 12px;
+            option {
+                color: #fff;
+                background: black;
+            }
+
+        }
+        span{
+            color: #8e8e8e;
+            font-size: 12px;
+        }
+         
+
+    }
+}
+

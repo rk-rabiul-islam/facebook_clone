@@ -1,0 +1,96 @@
+.home_container{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+    .home_full_sec{
+        width: 821px;
+        margin: 20px 0;
+        display: flex;
+        gap: 30px;
+
+
+        .home_left_colum{
+            width: 60%;
+
+            .home_user_story{
+                background-color: #fff;
+                padding: 20px;
+                padding-bottom: 10px;
+                border: 1px solid rgba(79, 79, 79, 0.2);
+                border-radius: 8px;
+                display: flex;
+                gap: 15px ;
+                margin-bottom: 20px;
+                .user_story{
+                    width: 60px;
+                    box-sizing: border-box;
+                    a{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        img{
+                            background: url(../../components/assets/images/Story_background.jpg) no-repeat;
+                            background-size: cover;
+                            width: 70px;
+                            height: 70px;
+                            border-radius: 50%;
+                            padding: 5px;
+                        }
+                        .story_username{
+                            text-align: center;
+                            font-size: 12px;
+                            color: #262626;
+                        }
+                    }
+                }
+            }
+        }
+
+        .home_right_colum{
+            width: 40%;
+            .home_user_info{
+                display: flex;
+                padding: 20px 0;
+                justify-content: space-between;
+                align-items: center;
+
+                .profile_info{
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+
+                    .profile_img {
+                        img{
+                            width: 60px;
+                            height: 60px;
+                            border-radius: 50%;
+                        }
+                    }
+                    .username_div{
+                        display: flex;
+                        flex-direction: column;
+                        .user_name{
+                            font-size: 14px;
+                            color: #262626;
+                        }
+                        span{
+                            font-size: 14px;
+                            color: #8E8E8E;
+                            font-weight: 300;
+                        }
+                    }
+
+                }
+                .switch_button{
+                    font-size: 12px;
+                    color: #0095F6;
+                }
+            }
+        }
+    }
+
+}
